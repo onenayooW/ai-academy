@@ -117,10 +117,17 @@ Use prompts **in numeric order** — additional steps will be added to the repo 
 | Step | Thai prompt | English prompt | Topic |
 | ---: | --- | --- | --- |
 | **1** | [`prompt/frontend/th/1.SetUpProject.md`](prompt/frontend/th/1.SetUpProject.md) | [`prompt/frontend/en/1.SetUpProject.md`](prompt/frontend/en/1.SetUpProject.md) | ตั้งค่าโปรเจกต์ Frontend / Frontend project setup |
-| **2+** | *(ตามมาทีหลัง / coming later)* | *(ตามมาทีหลัง / coming later)* | หน้า UI ตาม AC (หน้าแรก, รายละเอียด, จัดการ) / AC pages |
+| **2** | [`prompt/frontend/th/2.ThemeAndComponents.md`](prompt/frontend/th/2.ThemeAndComponents.md) | [`prompt/frontend/en/2.ThemeAndComponents.md`](prompt/frontend/en/2.ThemeAndComponents.md) | Theme, UI component และ helper / Theme, components, and helpers |
+| **3** | [`prompt/frontend/th/3.HomePage.md`](prompt/frontend/th/3.HomePage.md) | [`prompt/frontend/en/3.HomePage.md`](prompt/frontend/en/3.HomePage.md) | หน้าแรก Story 1 (UI + mock logic) / Home page Story 1 (UI + mock logic) |
+| **4** | [`prompt/frontend/th/4.ProductDetailPage.md`](prompt/frontend/th/4.ProductDetailPage.md) | [`prompt/frontend/en/4.ProductDetailPage.md`](prompt/frontend/en/4.ProductDetailPage.md) | หน้ารายละเอียด Story 2 (UI + mock logic) / Product detail Story 2 (UI + mock logic) |
+| **5** | [`prompt/frontend/th/5.AdminPage.md`](prompt/frontend/th/5.AdminPage.md) | [`prompt/frontend/en/5.AdminPage.md`](prompt/frontend/en/5.AdminPage.md) | หน้าจัดการ Story 3 (UI + mock logic) / Admin page Story 3 (UI + mock logic) |
+| **6** | [`prompt/frontend/th/6.IntegrateAPI.md`](prompt/frontend/th/6.IntegrateAPI.md) | [`prompt/frontend/en/6.IntegrateAPI.md`](prompt/frontend/en/6.IntegrateAPI.md) | เชื่อม API ทั้ง 3 หน้า / Connect all 3 pages to API |
 
-**EN — Planned themes for later steps:** home (Story 1), product detail (Story 2), admin (Story 3), plus responsive/error handling per DoD.  
-**TH — ธีมขั้นถัดไป (เมื่อมีไฟล์):** หน้าแรก (Story 1), รายละเอียด (Story 2), จัดการ (Story 3), responsive และ error handling ตาม DoD
+**EN — Responsive:** built from step 2 onward (theme breakpoints → components → each page). Do not defer to a later step.  
+**TH — Responsive:** ทำตั้งแต่ขั้น 2 (breakpoint ใน theme → component → แต่ละหน้า) ไม่รอไปทำทีหลัง
+
+**EN — After step 6:** all 3 pages use the backend API (list, filter, sort, detail, CRUD, uploads, error handling) and remain responsive.  
+**TH — หลังขั้น 6:** ทั้ง 3 หน้าใช้ backend API แล้ว (list, filter, sort, detail, CRUD, อัปโหลด, error handling) และยัง responsive อยู่
 
 ---
 
